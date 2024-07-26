@@ -3,6 +3,7 @@
 How to create an authentication in an Android application using Facebook API.
 Technologies used for implementation are Facebook APIs and Android Studio. The code languages used in Android Studio are Java and XML (Extensible Markup Language).
 First step on working for this project was to create an account on Meta for Developers, which is a platform where Facebook users can connect and create their own application using the provided products. After login on Meta for Developers with my personal Facebook account, I created an app called DSE App, named after the master’s study subject.
+
 ![image](https://github.com/user-attachments/assets/401f9b4c-9e87-43f0-b998-b9778caf1d21)
 
 
@@ -29,6 +30,7 @@ On Android Studio I create a new project from an empty sheet and follow the step
 
 To use Facebook for Android, developers need to download and install Facebook SDK so it can help be build the app with Facebook’s functionality or can use Maven, which is what I chose to do to save space not downloading all the archives  file that comes with Facebook SDK. 
 Maven lets user to chose with archive to download, so for this case the Facebook login. In the build,grandle file from my app I use mavenCenral() which is a repository by the Maven community that has a collection of filles, so I went online and search the repository I needed.
+
 ![image](https://github.com/user-attachments/assets/363f2f6b-1f34-4b74-894b-2c9144aa7130)
 
 
@@ -38,15 +40,16 @@ Maven lets user to chose with archive to download, so for this case the Facebook
 
 
 Using Facebook API requires a key hash which is a 28 characters strings that Facebook uses to authentication the interactions between developers’ apps and Facebook. There are two keys: one for development and one for release. Since I do not need to release the app, I follows the steps to only get the key hash for development.
+
 ![image](https://github.com/user-attachments/assets/bb67a0f3-bede-47cc-912e-0d6fa0bfe24a)
 
 I added Java to Window Path and download the openssl to use their cryptographic functions. It is mandatory to use a Java key, which is a data base that stores local and private key. Next step to get the generated key was to add the path where I save the openssl archive. After the key was generated ,I added it on Key Hashes section.
+
 ![image](https://github.com/user-attachments/assets/d9f10033-7337-4d28-84fb-195470621172)
 
 
 
 I enabled Single Sign On feature to my app, that will help user to not type email and password every time they log in to the application.
-
 
 ![image](https://github.com/user-attachments/assets/066736dc-4a51-408d-aae1-20d745027f9c)
 
@@ -78,6 +81,7 @@ The permission added to this login button are for user birthday, user photos, ge
 
 
 In the Figure 12 is shown how the Graph API Tool witch which the developers grant permission to request the information they want from the user, as in seen below there are permission for : birthday, location, photos, gender and id.
+
 ![image](https://github.com/user-attachments/assets/67f6704c-48bc-4975-991e-1ac9ba5f9310)
 ![image](https://github.com/user-attachments/assets/003ffe46-f7f8-4212-b687-98fe3fefcca1)
 
@@ -94,8 +98,7 @@ In the Figure 12 is shown how the Graph API Tool witch which the developers gran
 
 To check if a user log out,  I used an Access Token Tracker. Whenever the access token changes, this method is called automatically. What I check in this method is if the access token has change because if the answers is no that means the user has log out.
 
-
-	![image](https://github.com/user-attachments/assets/45a9ef20-b774-4a39-8638-64d2769a401e)
+![image](https://github.com/user-attachments/assets/b860b206-fed1-4289-946a-9fb4a3cc979c)
 
 
 
@@ -106,8 +109,6 @@ When the application is run for the first time, a login to the Facebook account 
 
 
 ![image](https://github.com/user-attachments/assets/290ad646-a7c1-417c-87f0-3bea4262028d)
-
-
 
 
 
