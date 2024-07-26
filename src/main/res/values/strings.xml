@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyDSEApp</string>
+    <string name="facebook_app_id">5283429018362427</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">2f383b520a4136fb531676f0248410f4</string>
+    <string name="textview">TextView</string>
+
+
+</resources>
