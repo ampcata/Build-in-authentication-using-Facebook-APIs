@@ -105,6 +105,7 @@ To check if a user log out,  I used an Access Token Tracker. Whenever the access
 
 To view if the application run correctly and to see the results, I use the Android Studio feature that let to create an emulator that simulation how the application look on the chosen device. For my emulator I chose a mobile phone, Nexus 3 LX.
 When the application is run for the first time, a login to the Facebook account is required.
+
 ![image](https://github.com/user-attachments/assets/867766e6-a04a-4fed-a809-e4cee2b0c7a3)
 
 
@@ -136,7 +137,8 @@ This is how the final design of the app will look when it ask the user to log in
 
 ![image](https://github.com/user-attachments/assets/28dad550-1cb2-4cc1-a166-03a20fc387e3)
 
-![image](https://github.com/user-attachments/assets/01576d41-7a7b-489d-8108-12dd36d55991)
+![image](https://github.com/user-attachments/assets/754477cc-e763-4d3c-9692-f662c12dd45f)
+
 
 
 Bibliography
